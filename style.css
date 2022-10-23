@@ -5,3 +5,9 @@
 .year {
   margin-top: -.5em;
 }
+
+@media screen and (max-width: 576px) {
+  footer {
+    font-size: 12px;
+  }
+}
