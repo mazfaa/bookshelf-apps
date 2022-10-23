@@ -219,21 +219,6 @@ const loadDataFromStorage = () => {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-  BOOKS.push({
-    id: +new Date(),
-    title: 'The Prodigy A Biography of William James Sidis',
-    author: 'Amy Wallace',
-    year: 1986
-  });
-
-  BOOKS.push({
-    id: +new Date(),
-    title: 'Introduction to Python',
-    author: 'Guido Van Rossum',
-    year: 1990,
-    isCompleted: true,
-  });
-
   const SUBMIT = document.getElementById('add-form');
   SUBMIT.addEventListener('submit', e => {
     addBook();
